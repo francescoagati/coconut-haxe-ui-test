@@ -1,0 +1,9 @@
+-dce full
+-D analyzer-optimize
+-lib coconut.haxeui
+-cp src
+-lib haxeui-core
+-lib haxeui-html5
+-main Main
+-js main.js
+-D js-es=6
